@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+
+
+.roadmapContainer {
+    font-family: BaksoSapi;
+    width:100%;
+    background-color: white;
+    padding-bottom: 5%;
+}
+.roadmapContainer h1 {
+    text-align: center;
+    font-size: 10vw;
+    text-shadow: 5px 5px #f1bb00;
+}
+
+.roadmapContainer .content {
+    width: 70%;
+    margin: 0% 30% 0% 20%;
+    height: auto;
+    background-color: #f1bb00;
+    padding: 0.5vh 3% 0.5vh 3%;
+    border-radius: 25px;
+    text-shadow: 2px 2px white;
+    box-shadow: 3px 3px black;
+    font-size: 1.5vw;
+}
+
+.roadmapContainer .contentLeft {
+    margin: 0% 30% 5% 20%;
+}
+
+.roadmapContainer .contentRight {
+    margin: 0% 20% 5% 30%;
+}
+
+
+.roadmapContainer h2 {
+    color: white;
+    padding-bottom: 0.5vh;
+    text-shadow: 3px 3px black;
+}
+
+.roadmapContainer .space {
+    height:5vh;
+}
+
+.roadmapContainer .arrowDown {
+    color: #1876D1;
+}
+
+.roadmapContainer .arrowDownLeft {
+    margin-left:40%;
+}
+
+.roadmapContainer .arrowDownRight {
+    margin-left:50%;
+}

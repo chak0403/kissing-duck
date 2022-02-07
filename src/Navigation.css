@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+
+.navigation {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width:100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.navigation .title{
+    font-family: BaksoSapi;
+    font-size: 2vw;
+    text-shadow: 3px 3px black;
+}
+
+.navigation .menu{
+    right: 0;
+    margin-left: 10%;
+}
+
+
+.navigation .navigate{
+    font-family: BaksoSapi;
+    font-size: 2vw;
+    text-shadow: 3px 3px black;
+    margin-left: 1vw;
+}

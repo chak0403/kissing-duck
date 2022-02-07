@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "BaksoSapi";
+    src: local("BaksoSapi"),
+    url("./assets/BaksoSapi.otf") format("truetype");
+    font-weight: bold;
+}
+
+
+.infoContainer {
+
+}
+
+.infoContainer .duckIcon{
+    position: relative;
+    width:100%;
+    margin-top: 15vh;
+}
+
+.infoContainer .info {
+    position: relative;
+    height: 100%;
+}
+
+.infoContainer .info .content {
+    font-family: BaksoSapi;
+    margin-top: 15vh;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 3% 7% 3% 7%;
+    background-color: #1876D1;
+    border-radius: 10vw;
+    box-shadow: 5px 5px;
+}
+
+.infoContainer .info .content h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px black;
+}
+
+.infoContainer .info .content h2 {
+    color: #f1bb00;
+    text-align: center;
+    text-shadow: 4px 4px black;
+}
+
+.infoContainer .info .content p {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
